@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head> 
+<body>
+    <!-- INPUT is used to create multiple form control -->
+    <!-- there are multiple type of inputs that can be craeted using type attribute -->
+    <form action="/server">
+        Input
+        <input type="">
+        <br>
+        <!-- label element is used to represent a caption for an item in a 
+            user interface(used to connect the text with the input ex- username ) -->
+            <div>
+                <label> 
+                    Username
+                    <!-- Placeholder is used to show the description about a input box, which until no input is given -->
+                    <input type="text" placeholder="enter name">
+                </label>
+            </div>
+        
+       <!-- id is the unique name of element -->
+        
+        <!-- Classical approach of label(on clicking on the text the cursor
+             will move directly to the input box) -->
+             <div>
+                <label for="password">Enter your Password:</label>
+        
+                <input type="password" id="password" placeholder="enter password">
+             </div>
+             <!-- to replace brake element we can use div element -->
+    <div>
+                 <label for="number">Enter a number </label>
+        <input type="number" id="number" placeholder="enter number">
+    </div>
+  <div>
+    <label for="time">Enter a time</label>
+    <input type="time" id="time" placeholder="enter time">
+  </div>
+    <div>
+        <label for="color">Choose a color</label>
+        <input type="color" id="color" placeholder="choose color">
+    </div>
+    
+    <!-- types of buttons -->
+    <button type="submit">sumbit</button>
+    <!-- submit button outside the form will not lead you to the action page -->
+    <button type="button">do something</button>
+    <button type="reset">Reset</button>
+    <!-- how to create button using input tag -->
+    <input type="submit" value="Submit1" name="" id="">
+    <!-- button type will not lead you anywhere but submit type will lead you to the action page -->
+    <input type="button" value="button" name="" id="">
+    <input type="reset" value="reset1" name="" id="">
+    </form>
+</body>
+</html>

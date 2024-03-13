@@ -1,0 +1,56 @@
+.container {
+  width: 600px;
+  height: 300px;
+  background-color: rgb(252, 6, 6);
+  display: grid;
+  /* grid-template-column/rows are the sizing of the tracks either row wise or column wise */
+  /* grid-template-rows: 50px 50px 50px 50px50px; */
+  /* grid-template-rows: auto auto auto; set equal no. of rows as no. of auto s are present  */
+  /* row-gap: 10px;
+  column-gap: 10px; */
+  /* grid-gap: 10px 10px; this gives grid-gap(row, coloumn);
+    grid-gap: 10px; thsi gives grid-gap(row)*/
+  grid-gap: 10px 10px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  /*   justify-items: center;
+ it is used for the whole container mainly used for horizontal alignment*/
+  justify-items: center;
+  /* align-items: end; it is used for the whole container mainly used for vertical alignment*/
+  align-items: end;
+  /*   place-items: center;
+used in place of horizontal and vertical as a single statmentfor the container */
+  place-items: center;
+}
+.item {
+  width: 100px;
+  height: 50px;
+  background-color: greenyellow;
+  border: 2px solid black;
+  text-align: center;
+}
+.one {
+  /* grid-column-start: 1; 
+   grid-column-end: 4; */
+  /* on using grid column you fix number of columns to the one elemntand using width and
+   height for the elemnt the will be fixed but not fully covered by the grid column  */
+  /* grid-column: 1/4;
+  or */
+  grid-column: 1 / span 3;
+  /* justify-self: end; it is used for one item */
+  justify-self: center;
+  /* align-self: center; mailnly used for verically alignment*/
+  align-self: center;
+  /*   place-items: start;
+used in place of horizontal and vertical as a single statmentfor the single item */
+  place-items: start;
+}
+/* Grid lines are of two types row and column lines thses are lines which create grid */
+/* Grid cell is the box created by the grid lines */
+/* Grid track is the space between two grid lines */
+.two {
+  /* grid-row-start: 1;
+  grid-row-end: 3; */
+  /* grid-row: 1/3; */
+  /* grid-row: 1 / span 2; */
+}

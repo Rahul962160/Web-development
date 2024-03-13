@@ -1,0 +1,37 @@
+div {
+  height: 200px;
+  width: 1200px;
+  background-color: burlywood;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  /* border: 5px solid black; */
+  border-top-color: blue;
+  border-top-style: dashed;
+  /* border-top-right-radius: 50px; */
+  /* border-top: dashed blue; */
+  border-radius: 10px;
+  /* for making an cirlce bordre height and wiegth shoul  be same */
+  padding-top: 50px;
+  /* margin is outside the box */
+  /* margin-bottom: 25px; */
+  margin: 20px 30px 40px 50px;
+}
+h1 {
+  /* border-width: 2px;
+  border-style: dashed;
+  border-color: black; */
+  border: 2px dashed black;
+  margin: 0px;
+}
+/* Padding for all sides
+padding: 50px; */
+/*  */
+button {
+  border: 2px solid black;
+  /* padding-left: 25px;
+  padding-right: 25px; */
+  padding: 1px 2px 3px 4px;
+  border-radius: 10px;
+  background-color: yellow;
+}

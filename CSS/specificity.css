@@ -1,0 +1,4 @@
+h3 {
+  background-color: aquamarine;
+}
+/* h3 is an element having (0,0,1) specificity which is the lowest specificity */

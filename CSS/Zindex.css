@@ -1,0 +1,25 @@
+.box {
+  height: 150px;
+  width: 150px;
+  background-color: pink;
+  border: 2px solid black;
+  text-align: center;
+}
+.one {
+  background-color: aquamarine;
+  position: relative;
+  z-index: -1;
+}
+.two {
+  background-color: darksalmon;
+  position: relative;
+  bottom: 50px;
+  z-index: -2;
+}
+/* Zindex - it decides the stack level of element 
+Overlapping element with a larger z- index cover those with a smaller one
+-every element is auto or default to zero index 
+- for setting the index for any element the position of that element should be relative it should not be static or deafault
+-  +indexing will move the element outside the page 
+-  -indexing will move the element inside the page
+-   the higher index will come in outside the page */

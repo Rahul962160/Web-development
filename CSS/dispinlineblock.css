@@ -1,0 +1,16 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: greenyellow;
+  border: 2px solid black;
+  margin: 5px;
+  /* display: inline; this will help to make the inline but ignore all these above applied properties  
+  accept margin will work on left and re=ight only but not on vertically
+  and padding works on all sides but top and bottom may overlap  */
+  display: inline-block;
+  /* inline block helps to retain all the properties from the above */
+}
+#third {
+  /* it remove third element from the page */
+  display: none;
+}

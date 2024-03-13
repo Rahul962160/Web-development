@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    /* cut the text */
+    text-decoration: line-through;
+}
+h3{
+    /* line above the text */
+    text-decoration: overline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    /* font weight can be form 100 to 900 which defines boldness and lightness */
+    font-weight: normal;
+    /* line-height: 2.5 x normal (controls the vertical spacing behavior) */
+    line-height: 2.5;
+    /*Controls the horizontal spacing behavior*/
+    letter-spacing: 5px;
+    /* Pixel: 1inch = 96pixels 
+    they are not used for responsive website like 
+    if 5px is sed for laptop screen then the same
+     will be taken by the phone screen which is not effective */
+     font-size: 5px;
+     /* font family */
+     font-family: Arial, Helvetica, sans-serif;
+}

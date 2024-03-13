@@ -1,0 +1,13 @@
+.container {
+  width: 600px;
+  height: 300px;
+  background-color: rgb(252, 6, 6);
+  display: inline-grid;
+}
+.item {
+  width: 100px;
+  height: 50px;
+  background-color: greenyellow;
+  border: 2px solid black;
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+h1{
+    color: brown;
+    background-color: blue;
+}
+/* Color sets the foreground color not the background color i.e only the text color will change */
+button{
+    color: darkorange;
+    background-color: black;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio</title>
+     <!-- name  = value the server leads to action page with this format-->
+</head>
+<body>
+    <form action="/action">
+        <!-- to group all the radio element name tag should be same in all the input tags,
+             only then the one box will get checked -->
+    <label for="apple">Apple</label>
+    <input type="radio" name="fruit" id="apple" value="Apple">
+    <label for="Mango">Mango</label>
+    <input type="radio" name="fruit" id="Mango" value="Mango">
+    <label for="Orange">Orange</label>
+    <input type="radio" name="fruit" id="Orange" value="Orange" >
+    <button type="submit">Submit</button>
+    <br>
+    Select subject 
+    <label for="Math">Math</label>
+    <input type="checkbox" name="sub" value="Math" id="Math">
+    <label for="Science">Science</label>
+    <input type="checkbox" name="sub" value="Science" id="Science">
+    <label for="computer">computer</label>
+    <input type="checkbox" name="sub" value="computer" id="computer">
+    <button type="submit">Submit</button>
+    
+<!-- Dropdown input  -->
+    <div>
+        Choose your profession
+        <select name="profession" id="profession">
+            <option value="">Select profession</option>
+            <option value="dev">developer</option>
+            <!-- if you want preselected dropdown the use selected tag -->
+            <option value="stu" selected>Student</option>
+        </select>
+        <button type="submit">Submit</button>
+
+    </div>
+    <!-- range  input -->
+    <div>
+        <label for="vol">Select your Volume:</label>
+        <!-- value tag is used to set predefined value
+        and step tag is used to set the min inc or dec value  -->
+        <input type="range" id="vol" min="0" max="100" value="50" step="10" name="vol">
+        <button type="submit">Submit</button>
+    
+    </div>
+    <!-- text area input tag -->
+    <div>
+        <label for="feedback">Give your valuable feedback:</label>
+        <textarea name="feedback" placeholder="give your feedback" id="feedback" cols="30" rows="10"></textarea>
+        <button type="Submit">Submit</button>
+    </div>
+</form>
+</body>
+</html>

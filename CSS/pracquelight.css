@@ -1,0 +1,23 @@
+.outerdiv {
+  height: 200px;
+  width: 70px;
+  border: 2px solid black;
+}
+.innerdiv1,
+.innerdiv2,
+.innerdiv3 {
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 50%;
+}
+.innerdiv1 {
+  background-color: red;
+}
+.innerdiv2 {
+  background-color: yellow;
+}
+.innerdiv3 {
+  background-color: green;
+}

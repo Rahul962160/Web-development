@@ -1,0 +1,4 @@
+div {
+  font-size: 2em;
+  /* shows snowball effect that every div is taking double of its previous font size to remove this we use rem unit */
+}

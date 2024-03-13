@@ -1,0 +1,25 @@
+/* div {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  /* transition/ transition- duration is happening in 2s */
+/* transition: 2s; */
+/* transition is happening  after 2s */
+/* transition-delay: 1s; */
+/* }
+div:hover {
+  background-color: black;
+  border-radius: 50%;
+}  */
+div {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  margin-top: 10px;
+  margin: 0 auto;
+  transition: margin-top 2s ease-in 0.2s;
+}
+div:hover {
+  margin-top: 400px;
+  background-color: pink;
+}

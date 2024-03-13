@@ -1,0 +1,24 @@
+/* h2 {
+  display: inline;
+  background-color: pink;
+}
+span {
+  display: block;
+  background-color: rgb(203, 143, 64);
+} */
+span {
+  /* background-color: pink; */
+  border: 2px solid black;
+  /* height and width also doesnt get applied on any of the side of span element */
+  height: 100px;
+  width: 200px;
+  /*padding only applied on left and right side */
+  padding: 50px;
+  /*margin only applied on left and right side */
+  margin: 20px;
+}
+div {
+  /* but same height and width is applying on div tag */
+  height: 100px;
+  width: 200px;
+}

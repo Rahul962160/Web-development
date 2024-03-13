@@ -1,0 +1,82 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+h1,
+h3 {
+  color: #b92b27;
+}
+#login {
+  background-color: white;
+}
+#signup {
+  background-color: #b92b27;
+  color: white;
+}
+.upvote {
+  background-color: green;
+  color: white;
+}
+/* descendent selector can be applied to any of the child of the parent */
+.post a {
+  column-rule: purple;
+  background-color: yellow;
+}
+nav ul li a {
+  color: hotpink;
+}
+/* sibling selector applied to parallel tags which are on same level */
+.upvote + button {
+  background-color: cornflowerblue;
+  color: darkblue;
+}
+
+p + h3 {
+  text-decoration: underline;
+}
+/* child selector used for only the next child of the parent, can not be applied on parent > child > child */
+div > input {
+  background-color: aquamarine;
+}
+/* attribute selector is used to apply on directly on value of an given attribute */
+input[type="text"] {
+  color: rgb(11, 11, 11);
+}
+input[type="password"] {
+  color: brown;
+}
+input[type] {
+  background-color: blueviolet;
+}
+#div[id="myId"] p {
+  color: green;
+}
+/* pseudo class */
+/* checked pseudo class */
+input[type="radio"]:checked + label {
+  color: red;
+  font-weight: bold;
+}
+/* nth-of-type pseudo class */
+div:nth-of-type(3) {
+  background-color: burlywood;
+}
+/* Hover pseudo class */
+button:hover {
+  color: black;
+  background-color: cyan;
+}
+/* active pseudo class */
+button:active {
+  background-color: pink;
+}
+/* Psuedo Elements its a keyword added to selector that lets you style a specific part of the selected element  */
+h1::first-letter {
+  color: black;
+}
+p::first-line {
+  color: rgb(56, 11, 233);
+}
+p::selection {
+  background-color: red;
+  color: yellow;
+}
